@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-    <div class="container topnav">
+    <div class="container topnav bs-example-navbar-collapse-1">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -9,19 +9,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand topnav" href="#">quidfish</a>
+            <%= image_tag("logo.png", :alt => "rss feed") %>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#about">FUNDRAISE NOW</a>
+                    <a href="#fundraise">FUNDRAISE NOW</a>
                 </li>
                 <li>
-                    <a href="#services">SIGN UP</a>
+                    <a href="#signup">SIGN UP</a>
                 </li>
                 <li>
-                    <a href="#contact">LOG IN</a>
+                    <a href="#login">LOG IN</a>
                 </li>
             </ul>
         </div>
@@ -30,24 +30,37 @@
     <!-- /.container -->
 </nav>
 
-<!-- Header -->
-<div class="intro-header">
-    <div class="container">
 
-        <div class="row">
-          <div class="homeback1">
-            <p class="text-primary">JOIN THE QUIDFISH REVOLUTION</p>
-            <h3>
-              JOIN THE QUIDFISH REVOLUTION
-            </h3>
+  <div class="container-fluid  bgimg">
+    <div class="topspace"></div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-4 centeralign">
+          <h3 >JOIN THE QUIDFISH REVOLUTION</h3>
+        </div>
+        <div class="col-md-5 col-md-offset-4 centeralign marginbottom">
+          <h4>Donate to the causes you love. Track your<br> donation. Be rewarded for your kindness.
+          </h4>
+        </div>
+        <div class="col-md-5 col-md-offset-4 centeralign marginbottom">
+          <button type="button" class="btn btn-info ">How it works</button>
+        </div>
+        <div class="col-md-5 col-md-offset-4 centeralign">
+          <h4>Where do you want to donate?</h4>
+        </div>
+        <div class="col-md-5 col-md-offset-4 centeralign">
+          <div class="form-group">
+            <input class="form-control input-sm" id="inputsm" type="text">
           </div>
         </div>
+        <div class="col-md-5 col-md-offset-4 centeralign">
+          <button type="button" class="btn btn-success">Find a project</button>
+        </div>
+      </div>
+  </div>
+    <!-- /.container -a->
 
-    </div>
-    <!-- /.container -->
-</div>
 <!-- Footer -->
-<footer>
+<footer class="alignleft">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

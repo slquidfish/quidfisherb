@@ -169,6 +169,74 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-div.homeback1 {
-   content:url(/assets/images/background1.jpg);
+.bgimg {
+    background-image: url('back1.png');
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+
+.topspace {
+       height: 100px;
+}
+
+h3
+{
+ color: white !important;
+}
+
+h4
+{
+ color: white !important;
+}
+
+.marginbottom
+{
+  margin-bottom: 35px;
+}
+
+.centeralign
+{
+  text-align: center
+}
+
+.alignleft
+{
+  text-align: left
+}
+
+
+.bs-example-navbar-collapse-1
+{
+  width: 100%;
+}
+html, body {
+    height: 100%;
+}
+.container-fluid {
+    margin: 0 auto;
+    height: 750px;
+    width: 100%;
+    padding: 20px 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.columns {
+    background-color: #C9E6FF;
+    height: 100%;
+}
+
+.content-area, .article-tree{
+    background: #bada55;
+    overflow:auto;
+    height: 100%;
+}
+
+.footer {
+    background: red;
+    height: 20px;
+    text-align: left;
 }
